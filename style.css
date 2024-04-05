@@ -1,0 +1,305 @@
+/* Write some CSS below */
+
+/* Banner */
+
+
+  
+body {
+    margin : 0;
+    
+
+}
+.banner { 
+    background-image : url('/Users/samadh/Desktop/landing-page-boilerplate/images/man.png.jpg'); 
+    color : white;
+    text-align: center;
+    padding: 150px 0;
+    background-position: center; 
+    background-size: cover;
+    height: 500px; 
+}
+
+.banner h1{
+    font-size: 64px;
+    Font-weight: 400;
+}
+
+.banner p {
+    font-size: 32px;
+    margin-bottom : 40px;
+    Font-size : 34px;
+}
+
+.btn-red{
+    text-decoration: none;
+    border-radius : 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 10px 15px;
+    color :#2A3EB2; 
+    font-weight: 300; 
+    Font-size: 20px;
+    background-color: #CFEA5B; 
+}
+
+.btn-blue {
+    text-decoration: none;
+    border-radius : 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 15px 25px;
+    color :#2A3EB2; 
+    font-weight: 600; 
+    Font-size: 14px;
+    background-color:#E5EBFA; 
+    text-align: auto;
+
+}
+.bouton {
+    background-position: center; 
+    text-align: center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+
+
+.container {
+    margin : 40px auto; 
+    width: 900px;    
+}
+
+.card-white {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 10px; 
+    margin : 0px; 
+}
+
+.card-white img {
+    border-radius: 5px;
+    width : 100%; 
+    object-fit: cover;
+}
+
+.cards {
+    display : grid ; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color:#E5EBFA;
+    color:#2A3EB2;
+    height: 200px;
+    width : 100%; 
+    text-align: left;
+}
+.footer p {
+    color:#E5EBFA;
+    background-color:#2A3EB2;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+
+a:hover {
+        background-color: #2A3EB2 ;
+    }
+
+h1{
+  font-family: "Playfair Display", Vidaloka, serif;
+  color: #CFEA5B;
+  font-size: 8rem;
+  line-height: 0.85;
+  perspective: 500px;
+  display: block;
+  animation: show 0.01s forwards, pop-word 1.5s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  margin-top: 20;
+  
+}
+
+.text-h2 {
+    font-family:"playfair Display", serif ;
+    color:#2A3EB2 ;
+    Font-size: 32px;
+    font-weight: 600;
+}
+
+.contact {
+    background-color: #E5EBFA;
+    margin: 30px auto;
+    padding: 10px 5px;
+    padding-bottom: 0%;
+    margin: 10px auto;
+    color:#2A3EB2;
+    text-align: left;
+}
+
+
+.btn-gray {
+    text-decoration: none;
+    border-radius : 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 15px 25px;
+    color :#2A3EB2; 
+    font-weight: 600; 
+    Font-size: 14px;
+    background-color:#CFEA5B; 
+    text-align: auto;
+    margin-left: 250px;
+}
+
+.text-container, .button-container {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 10px 10px; 
+  }
+
+p, h2 {
+    margin: 0;
+  }
+
+  .text-container {
+    margin-right: 20px;
+  }
+
+
+.separator {
+    border: 20px solid #fff; 
+    margin: 20px 0; 
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.newsletter {
+    padding: 150px 150px;
+    margin: 0px auto;
+    background-image : url('/Users/samadh/Desktop/landing-page-boilerplate/images/plage.png');
+    background-size: cover;
+    
+}
+
+.text-newsletter {
+    color:#2A3EB2;
+    background-color: #CFEA5B;
+    Font-size :32px;
+    font-weight: 600;
+    display: inline-block;
+    font-family:"Playfair Display";
+    border-radius: 4px;
+}
+
+.text-news {
+    color:#fff;
+    Font-size :18px;
+    font-weight: 300;
+    
+}
+
+.img-IG {
+background-image: url('/Users/samadh/Desktop/landing-page-boilerplate/images/pics.png') ;
+background-color: white;
+padding: 100px;
+margin: 40px auto;
+height: 200px; 
+}
+.prix {
+    color:#2A3EB2;
+}
+.list-inline li {
+    display: inline;
+      }
+.img-picto {
+    border-radius:0%;
+    height: 40px;
+    object-fit: cover;
+    box-shadow: none;
+    size: 4px;
+    }
+
+
+/* H1 - Title animation */
+
+
+:root {
+  --bar-scale-y: 0;
+  --sparkle-color: rgb(253 244 215 / 40%);
+}
+
+@keyframes pop-word {
+  to {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bar-scale {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+  }
+
+  60% {
+    transform: scale(1) translate(4px, 1px) rotate(8deg);
+  }
+
+  100% {
+    transform: scale(0) translate(4px, 1px) rotate(8deg);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    text-shadow: 0 0 8px red;
+  }
+}
+
+
+
+h1 {
+  color:#2A3EB2;
+  font-family: "Playfair Display", Vidaloka, serif;
+  font-size: 50rem;
+
+  line-height: 0.85;
+  perspective: 700px;
+}
+
+.word {
+  display: block;
+  animation: show 0.01s forwards, pop-word 1s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  opacity: 0;
+  transform: rotateX(120deg);
+  transform-origin: 50% 100%;
+}
+
+.word:nth-of-type(2) {
+  padding: 0 2rem;
+  animation-delay: 1.5s;
+  color:#2A3EB2;
+}
+
+/* LOGO */
+
+.logo {
+    position: absolute;
+    top: 20px; 
+    left: 50px; 
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+  
